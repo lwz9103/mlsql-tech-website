@@ -15,7 +15,7 @@ export default class MLSQLApp extends Component {
                             <p className="p1-text">A Powerful DSL United Big Data and Machine Learning</p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
-                                   href="https://github.com/allwefantasy/streamingpro/releases">Download</a>
+                                   href="http://download.mlsql.tech">Download</a>
                                 <a className="p1-bar-item"
                                    href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/user-guide.md">Get
                                     Started</a>
