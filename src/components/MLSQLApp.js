@@ -62,7 +62,7 @@ export default class MLSQLApp extends Component {
                         <h2>Machine Learning</h2>
                         <p>MLSQL is realy easy to use, four lines to train a model and predict. </p>
                         <div className="pre-container">
-                            <h3>Java code</h3>
+                            <h3>MLSQL code</h3>
                             <div className="pre-container-code">
 <pre>
 load libsvm.`sample_libsvm_data.txt` as data;<br/>
@@ -81,7 +81,7 @@ select predict(features)  from data as result;
                         <h2>Deep Learning</h2>
                         <p>MLSQL supports deep learning. You also can use any python deep learning library in MLSQL.</p>
                         <div className="pre-container">
-                            <h3>Java code</h3>
+                            <h3>MLSQL code</h3>
                             <div className="pre-container-code">
 <pre>
   train trainData as BigDLClassifyExt.`/tmp/bigdl` where<br/>
@@ -139,7 +139,7 @@ and fitParam.0.code='''<br/>
                 <div className="hr"></div>
 
                 <div className="p2-item copyright">
-                    MLSQL Licensed under the Apache License, Version 2.0.
+                    MLSQL Licensed under the Apache License, Version 2.0.  @浙ICP备18052520号
                 </div>
             </div>
         )
