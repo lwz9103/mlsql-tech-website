@@ -119,6 +119,21 @@ a:hover {
   margin-top: 14px;
 }
 
+.nav-menu {
+  position: relative;
+  padding-right: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 24px;
+  text-align: center;
+  float: right;
+  display: none;
+}
+
+.nav-menu:hover {
+  color: #A82255;
+}
+
 .nav-gitlab img {
   position: absolute;
   right: 0;
@@ -182,6 +197,14 @@ a:hover {
   width: 90%;
   min-width: 960px;
   max-width: 1260px;
+}
+
+.p2-item a {
+  color: #D56F90;
+}
+
+.p2-item a:hover {
+  color: #A82255;
 }
 
 .hr {
@@ -263,4 +286,58 @@ a:hover {
 .copyright {
   color: #B73F68;
   margin-top: 20px;
+}
+
+@media screen and (max-width:760px) {
+  .body {
+    min-width: auto;
+  }
+
+  .header {
+    overflow: visible;
+  }
+
+  .nav-gitlab,
+  .nav-item{ display: none; }
+
+  .logo { display: block; }
+
+  .p1-wrap {
+    width: 100%;
+  }
+
+  .p2-item {
+    min-width: auto;
+  }
+
+  .col-3 {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+
+  .pre-container {
+    max-width: 100%;
+  }
+
+  .nav-menu {
+    display: block;
+    padding-right: 0;
+  }
+
+  .nav-menu-drop {
+    position: absolute;
+    right: -10px;
+    padding-top: 20px;
+    background-color: #A82255;
+  }
+
+  .nav-menu-drop-item {
+    padding: 10px 20px;
+  }
+
+  .nav-menu-drop-item:hover {
+    background-color: #a8175a;
+  }
 }

@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import pineTree from '../image/pine-tree.png';
-import github from '../image/github.png';
-import search from '../image/search.png';
 
 export default class MLSQLApp extends Component {
     render() {
@@ -25,7 +22,7 @@ export default class MLSQLApp extends Component {
                 </div>
 
                 <div className="p2-item">
-                    <div className="col-3" style={{'margin-left': 0}}>
+                    <div className="col-3" style={{ marginLeft: 0 }}>
                         <h2>Declarative</h2>
                         <p>
                             MLSQL is SQL-like Language. MLSQL is also a
@@ -77,7 +74,7 @@ select predict(features)  from data as result;
                         </div>
                     </div>
 
-                    <div className="col-1" style={{'margin-bottom': 0}}>
+                    <div className="col-1" style={{ marginBottom: 0}}>
                         <h2>Deep Learning</h2>
                         <p>MLSQL supports deep learning. You also can use any python deep learning library in MLSQL.</p>
                         <div className="pre-container">
@@ -105,7 +102,7 @@ and fitParam.0.code='''<br/>
                 </div>
 
                 <div className="p2-item">
-                    <div className="col-3" style={{'margin-left': 0}}>
+                    <div className="col-3" style={{ marginLeft: 0 }}>
                         <h2>Community</h2>
                         <p>
                             MLSQL is now developing actively, more and more developers are joining our community.
