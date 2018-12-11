@@ -9,7 +9,7 @@ export default class MLSQLApp extends Component {
                             <div className="p1-logo logo-color">
                                 MLSQL
                             </div>
-                            <p className="p1-text">A Powerful DSL Unifies Big Data and Machine Learning</p>
+                            <p className="p1-text">Unify Big Data and Machine Learning</p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
