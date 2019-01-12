@@ -16,6 +16,8 @@ export default class MLSQLApp extends Component {
                                 <a className="p1-bar-item"
                                    href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/user-guide.md">Get
                                     Started</a>
+                                <a className="p1-bar-item"
+                                   href="http://docs.mlsql.tech/zh">中文文档</a>
                             </div>
                         </div>
                     </div>
