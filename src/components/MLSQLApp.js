@@ -139,6 +139,7 @@ and fitParam.0.code='''<br/>
 
                 <div className="p2-item copyright">
                     MLSQL Licensed under the Apache License, Version 2.0.  @<a className="copyright" href="http://www.miitbeian.gov.cn/">浙ICP备18052520号</a>
+                    <div>@<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802009683" ><img src=""/>浙公网安备 33010802009683号</a></div>
                 </div>
             </div>
         )
