@@ -10,10 +10,10 @@ export default class MLSQLHeader extends Component {
     this.state = {
       keyword: 'Search docs',
       navs: [
-        { text: 'Downloads', url: 'https://github.com/allwefantasy/streamingpro/releases' },
-        { text: 'Tutorial', url: 'https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/user-guide.md' },
+        { text: 'Downloads', url: 'http://download.mlsql.tech' },
+        { text: 'Tutorial', url: 'http://docs.mlsql.tech/en' },
         { text: 'Community', url: 'https://github.com/allwefantasy/streamingpro' },
-        { text: 'Blog', url: 'https://www.jianshu.com/c/759bc22b9e15' },
+        { text: 'Blog', url: 'https://www.jianshu.com/u/59d5607f1400' },
       ],
       isDropMenuOpen: false,
     };

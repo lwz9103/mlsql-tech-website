@@ -14,17 +14,15 @@ export default class MLSQLApp extends Component {
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
                                 <a className="p1-bar-item"
-                                   href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/user-guide.md">Get
+                                   href="http://docs.mlsql.tech/en">Get
                                     Started</a>
-                                <a className="p1-bar-item"
-                                   href="http://docs.mlsql.tech/zh">中文文档</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="p2-item">
-                    <div className="col-3" style={{ marginLeft: 0 }}>
+                    <div className="col-3" style={{marginLeft: 0}}>
                         <h2>Declarative</h2>
                         <p>
                             MLSQL is SQL-like Language. MLSQL is also a
@@ -57,8 +55,22 @@ export default class MLSQLApp extends Component {
 
 
                 <div className="p2-item">
+
                     <div className="col-1">
-                        <h2>Machine Learning</h2>
+                        <h2>Installing</h2>
+                        <p>The install script will install docker containers on your machine.</p>
+                        <div className="pre-container">
+                            <h3>Shell</h3>
+                            <div className="pre-container-code">
+<pre>
+bash &lt;(curl http://download.mlsql.tech/scripts/run-all.sh)
+</pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-1">
+                        <h2>Code Example</h2>
                         <p>MLSQL is realy easy to use, four lines to train a model and predict. </p>
                         <div className="pre-container">
                             <h3>MLSQL code</h3>
@@ -76,35 +88,12 @@ select predict(features)  from data as result;
                         </div>
                     </div>
 
-                    <div className="col-1" style={{ marginBottom: 0}}>
-                        <h2>Deep Learning</h2>
-                        <p>MLSQL supports deep learning. You also can use any python deep learning library in MLSQL.</p>
-                        <div className="pre-container">
-                            <h3>MLSQL code</h3>
-                            <div className="pre-container-code">
-<pre>
-  train trainData as BigDLClassifyExt.`/tmp/bigdl` where<br/>
-disableSparkLog = "true"<br/>
-and fitParam.0.featureSize="[3,28,28]"<br/>
-and fitParam.0.classNum="10"<br/>
-and fitParam.0.maxEpoch="10"<br/>
-and fitParam.0.code='''<br/>
-                   def apply(params:Map[String,String])= {"{"}<br/>
-    val model = Sequential()<br/>
-    model.add(Reshape(Array(3, 28, 28), inputShape = Shape(28, 28, 3)))<br/>
-    model.add(Dense(params("classNum").toInt, activation = "softmax").setName("fc2"))<br/>
-    {"}"}}
-    '''
-</pre>
-                            </div>
-                        </div>
-                    </div>
 
                     <div className="hr"></div>
                 </div>
 
                 <div className="p2-item">
-                    <div className="col-3" style={{ marginLeft: 0 }}>
+                    <div className="col-3" style={{marginLeft: 0}}>
                         <h2>Community</h2>
                         <p>
                             MLSQL is now developing actively, more and more developers are joining our community.
@@ -138,8 +127,11 @@ and fitParam.0.code='''<br/>
                 <div className="hr"></div>
 
                 <div className="p2-item copyright">
-                    MLSQL Licensed under the Apache License, Version 2.0.  @<a className="copyright" href="http://www.miitbeian.gov.cn/">浙ICP备18052520号</a>
-                    <div>@<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802009683" ><img src=""/>浙公网安备 33010802009683号</a></div>
+                    MLSQL Licensed under the Apache License, Version 2.0. @<a className="copyright"
+                                                                              href="http://www.miitbeian.gov.cn/">浙ICP备18052520号</a>
+                    <div>@<a target="_blank"
+                             href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802009683"><img
+                        src=""/>浙公网安备 33010802009683号</a></div>
                 </div>
             </div>
         )
