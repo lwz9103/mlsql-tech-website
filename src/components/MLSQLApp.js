@@ -25,17 +25,15 @@ export default class MLSQLApp extends Component {
                     <div className="col-3" style={{marginLeft: 0}}>
                         <h2>Declarative</h2>
                         <p>
-                            MLSQL is SQL-like Language. MLSQL is also a
-                            distributed compute engine.
-                            You can do Batch/Stream/Web Crawler/AI job with MLSQL language through the rest API of MLSQL
-                            Engine.
+                            MLSQL is a SQL-Based language, and it's also a distributed compute engine based on Spark.
+                            The design goal of the MLSQL is to unify Big Data and Machine Learning, one language, one platform.
                         </p>
                     </div>
 
                     <div className="col-3">
                         <h2>Ease Of Use</h2>
                         <p>
-                            MLSQL is a superset of SQL. Master MLSQL is the only requirement if you want to develop
+                            Mastering MLSQL is the only requirement if you want to develop
                             BigData and Machine Learning.
                         </p>
                     </div>
