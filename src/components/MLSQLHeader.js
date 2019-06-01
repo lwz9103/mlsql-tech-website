@@ -14,6 +14,7 @@ export default class MLSQLHeader extends Component {
         { text: 'Tutorial', url: 'http://docs.mlsql.tech/en' },
         { text: 'Community', url: 'https://github.com/allwefantasy/streamingpro' },
         { text: 'Blog', url: 'https://www.jianshu.com/u/59d5607f1400' },
+        { text: 'Video', url: 'https://search.bilibili.com/video?keyword=MLSQL' }
       ],
       isDropMenuOpen: false,
     };

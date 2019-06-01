@@ -13,7 +13,7 @@ train data as RandomForest.\`/tmp/model\`;
 
 register RandomForest.\`/tmp/model\` as rf_predict;
 
-select predict(features) from data as result;`
+select rf_predict(features) from data as result;`
 
         const logInfo = `account:  demo@gmail.com
 password: 123456`
