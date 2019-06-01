@@ -1,7 +1,25 @@
 import React, {Component} from 'react';
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
+import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism';
+
 
 export default class MLSQLApp extends Component {
+
+
     render() {
+        const codeExample = `load libsvm.\`sample_libsvm_data.txt\` as data;
+
+train data as RandomForest.\`/tmp/model\`;
+
+register RandomForest.\`/tmp/model\` as rf_predict;
+
+select predict(features) from data as result;`
+
+        const logInfo = `account:  demo@gmail.com
+password: 123456`
+
+        const quickInstall=`bash < (curl http://download.mlsql.tech/scripts/run-all.sh)`
+
         return (<div className="MLSQLApp">
                 <div className="body">
                     <div className="p1">
@@ -61,9 +79,9 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>Shell</h3>
                             <div className="pre-container-code">
-<pre>
-bash &lt;(curl http://download.mlsql.tech/scripts/run-all.sh)
-</pre>
+                                <SyntaxHighlighter language='shell' style={dark}>
+                                    {quickInstall}
+                                </SyntaxHighlighter>
                             </div>
                         </div>
                     </div>
@@ -74,10 +92,9 @@ bash &lt;(curl http://download.mlsql.tech/scripts/run-all.sh)
                         <div className="pre-container">
                             <h3>Login info</h3>
                             <div className="pre-container-code">
-<pre>
-account:  demo@gmail.com <br/>
-password: 123456
-</pre>
+                                <SyntaxHighlighter language='sql' style={dark}>
+                                    {logInfo}
+                                </SyntaxHighlighter>
                             </div>
                         </div>
                     </div>
@@ -88,15 +105,12 @@ password: 123456
                         <div className="pre-container">
                             <h3>MLSQL code</h3>
                             <div className="pre-container-code">
-<pre>
-load libsvm.`sample_libsvm_data.txt` as data;<br/>
 
-train data as RandomForest.`/tmp/model`;<br/>
+                                <SyntaxHighlighter language='sql' style={dark}>
+                                    {codeExample}
+                                </SyntaxHighlighter>
 
-register RandomForest.`/tmp/model` as rf_predict;<br/>
 
-select predict(features)  from data as result;
-</pre>
                             </div>
                         </div>
                     </div>
