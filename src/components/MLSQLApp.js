@@ -26,7 +26,8 @@ export default class MLSQLApp extends Component {
                         <h2>Declarative</h2>
                         <p>
                             MLSQL is a SQL-Based language, and it's also a distributed compute engine based on Spark.
-                            The design goal of the MLSQL is to unify Big Data and Machine Learning, one language, one platform.
+                            The design goal of the MLSQL is to unify Big Data and Machine Learning, one language, one
+                            platform.
                         </p>
                     </div>
 
@@ -62,6 +63,20 @@ export default class MLSQLApp extends Component {
                             <div className="pre-container-code">
 <pre>
 bash &lt;(curl http://download.mlsql.tech/scripts/run-all.sh)
+</pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-1">
+                        <h2>Try online</h2>
+                        <p>Visit <a href={"http://try.mlsql.tech"}>http://try.mlsql.tech</a></p>
+                        <div className="pre-container">
+                            <h3>Login info</h3>
+                            <div className="pre-container-code">
+<pre>
+account:  demo@gmail.com <br/>
+password: 123456
 </pre>
                             </div>
                         </div>
