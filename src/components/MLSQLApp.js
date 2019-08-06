@@ -18,7 +18,9 @@ select rf_predict(features) from data as result;`
         const logInfo = `account:  demo@gmail.com
 password: 123456`
 
-        const quickInstall=`bash < (curl http://download.mlsql.tech/scripts/run-all.sh)`
+        const quickInstall=`Mac: bash < (curl http://download.mlsql.tech/scripts/run-all.sh)
+Linux: curl http://download.mlsql.tech/scripts/run-all.sh | bash
+        `
 
         return (<div className="MLSQLApp">
                 <div className="body">
