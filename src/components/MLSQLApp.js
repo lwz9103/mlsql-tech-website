@@ -52,15 +52,16 @@ password: 123456`
                     <div className="col-3">
                         <h2>Ease Of Use</h2>
                         <p>
-                            Mastering MLSQL is the only requirement if you want to develop
-                            BigData and Machine Learning.
+                            If you knows SQL, then you knows MLSQL. MLSQL Console in MLSQL stack provides you web console
+                            which is simple but useful. ETL/ML/Stream/Predict Server even send mail all can
+                            been done by MLSQL.
                         </p>
                     </div>
 
                     <div className="col-3">
                         <h2>Runs Everywhere</h2>
                         <p>
-                            MLSQL is compatible with Spark 2.2.x/2.3.x/2.4.x means you can run it
+                            MLSQL is compatible with Spark 2.3.x/2.4.x. It means you can run it
                             on EC2, on Hadoop YARN, on Mesos, or on
                             Kubernetes. Access data in HDFS, Alluxio, Cassandra, HBase, Hive, and
                             hundreds of other data sources.
