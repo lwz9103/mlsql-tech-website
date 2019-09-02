@@ -18,7 +18,7 @@ select rf_predict(features) from data as result;`
         const logInfo = `account:  demo@gmail.com
 password: 123456`
 
-        const quickInstall=`bash < (curl http://download.mlsql.tech/scripts/run-all.sh)`
+        const quickInstall = `bash < (curl http://download.mlsql.tech/scripts/run-all.sh)`
 
         return (<div className="MLSQLApp">
                 <div className="body">
@@ -27,7 +27,7 @@ password: 123456`
                             <div className="p1-logo logo-color">
                                 MLSQL
                             </div>
-                            <p className="p1-text">Unify Big Data and Machine Learning</p>
+                            <p className="p1-text">The MLSQL Programming Language</p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
@@ -41,30 +41,30 @@ password: 123456`
 
                 <div className="p2-item">
                     <div className="col-3" style={{marginLeft: 0}}>
-                        <h2>Declarative</h2>
+                        <h2>General</h2>
                         <p>
-                            MLSQL is a SQL-Based language, and it's also a distributed compute engine based on Spark.
-                            The design goal of the MLSQL is to unify Big Data and Machine Learning, one language, one
-                            platform.
+                            MLSQL is designed for Big Data and Machine Learning.
+                            It also includes a distributed runtime which can runs on EC2, on Hadoop YARN, on Mesos, or
+                            on
+                            Kubernetes and access data in HDFS, Alluxio, Cassandra, HBase, Hive, and
+                            hundreds of other data sources.
                         </p>
                     </div>
 
                     <div className="col-3">
                         <h2>Ease Of Use</h2>
                         <p>
-                            If you knows SQL, then you knows MLSQL. The MLSQL Console in MLSQL stack provides you a web console
-                            which is simple but useful. ETL/ML/Stream/Predict Server even sending mail all can
-                            been done by MLSQL.
+                            MLSQL combines SQL and Python, make it more easy to use in BigData and AI.
+                            If you knows Command Line, you knows MLSQL.
+                            If you knows SQL, you knows MLSQL.
+                            If you knows Python, you knows MLSQL.
                         </p>
                     </div>
 
                     <div className="col-3">
-                        <h2>Runs Everywhere</h2>
+                        <h2>Open Source</h2>
                         <p>
-                            MLSQL is compatible with Spark 2.3.x/2.4.x. This means you can run it
-                            on EC2, on Hadoop YARN, on Mesos, or on
-                            Kubernetes. Access data in HDFS, Alluxio, Cassandra, HBase, Hive, and
-                            hundreds of other data sources.
+                            MLSQL is free for everyone to use, and all source code is publicly viewable on GitHub.
                         </p>
                     </div>
                     <div className="clearfix"></div>
