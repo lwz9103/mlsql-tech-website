@@ -27,7 +27,7 @@ password: 123456`
                             <div className="p1-logo logo-color">
                                 MLSQL
                             </div>
-                            <p className="p1-text">The MLSQL Programming Language</p>
+                            <p className="p1-text">The Programming Language Designed For Big Data and AI</p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
