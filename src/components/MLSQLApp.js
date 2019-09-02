@@ -143,9 +143,9 @@ password: 123456`
                         <h2>Getting Started</h2>
                         <p>
                             Learning MLSQL is easy if you are familiar with SQL. Please check <a
-                            href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/getting_started/mlsql-grammar.md">MLSQL
+                            href="http://docs.mlsql.tech/zh/grammar/">MLSQL
                             Grammar</a> or find more examples on <a
-                            href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/user-guide.md">our
+                            href="http://docs.mlsql.tech/zh/">our
                             user guide</a>.
                         </p>
                     </div>
