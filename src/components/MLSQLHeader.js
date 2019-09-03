@@ -11,7 +11,7 @@ export default class MLSQLHeader extends Component {
       keyword: 'Search docs',
       navs: [
         { text: 'Downloads', url: 'http://download.mlsql.tech' },
-        { text: 'Tutorial', url: 'http://docs.mlsql.tech/en' },
+        { text: 'Tutorial', url: 'https://docs.mlsql.tech/v1.4.0/zh' },
         { text: 'Community', url: 'https://github.com/allwefantasy/streamingpro' },
         { text: 'Blog', url: 'https://www.jianshu.com/u/59d5607f1400' },
         { text: 'Video', url: 'https://search.bilibili.com/video?keyword=MLSQL' }

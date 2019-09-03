@@ -32,7 +32,7 @@ password: 123456`
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
                                 <a className="p1-bar-item"
-                                   href="http://docs.mlsql.tech/en">Get
+                                   href="https://docs.mlsql.tech/v1.4.0/zh/">Get
                                     Started</a>
                             </div>
                         </div>
