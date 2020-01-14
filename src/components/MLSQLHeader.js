@@ -11,10 +11,10 @@ export default class MLSQLHeader extends Component {
       keyword: 'Search docs',
       navs: [
         { text: 'Downloads', url: 'http://download.mlsql.tech' },
-        { text: 'Tutorial', url: 'https://docs.mlsql.tech/v1.4.0/zh' },
-        { text: 'Community', url: 'https://github.com/allwefantasy/streamingpro' },
-        { text: 'Blog', url: 'https://www.jianshu.com/u/59d5607f1400' },
-        { text: 'Video', url: 'https://search.bilibili.com/video?keyword=MLSQL' }
+        { text: 'Tutorial', url: 'http://docs.mlsql.tech/zh/' },
+        { text: 'Community', url: 'https://github.com/allwefantasy/mlsql' },
+        { text: 'Blog', url: 'https://zhuanlan.zhihu.com/c_205546986' },
+        { text: 'Video', url: 'https://space.bilibili.com/22610047/video' }
       ],
       isDropMenuOpen: false,
     };
