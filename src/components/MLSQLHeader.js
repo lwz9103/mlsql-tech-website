@@ -70,7 +70,7 @@ export default class MLSQLHeader extends Component {
               <img alt='' src={menu} width="16" style={{ float: 'right' }}/>
             </div>
             <div className="nav-gitlab">
-              <a rel="noopener noreferrer" href="https://github.com/allwefantasy/streamingpro" target="_blank">GitHub</a>
+              <a rel="noopener noreferrer" href="https://github.com/allwefantasy/mlsql" target="_blank">GitHub</a>
               <img alt='' src={github} width="16" style={{ float: 'right' }}/>
             </div>
           </div>

@@ -18,7 +18,7 @@ select rf_predict(features) from data as result;`
         const logInfo = `account:  demo@gmail.com
 password: 123456`
 
-        const quickInstall = `bash < (curl http://download.mlsql.tech/scripts/run-all.sh)`
+        const quickInstall = "bash <(curl http://download.mlsql.tech/scripts/run-all.sh)"
 
         return (<div className="MLSQLApp">
                 <div className="body">
@@ -32,7 +32,7 @@ password: 123456`
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech">Download</a>
                                 <a className="p1-bar-item"
-                                   href="https://docs.mlsql.tech/v1.4.0/zh/">Get
+                                   href="http://docs.mlsql.tech/zh/">Get
                                     Started</a>
                             </div>
                         </div>
@@ -40,6 +40,7 @@ password: 123456`
                 </div>
 
                 <div className="p2-item">
+
                     <div className="col-3" style={{marginLeft: 0}}>
                         <h2>General</h2>
                         <p>
@@ -54,7 +55,7 @@ password: 123456`
                     <div className="col-3">
                         <h2>Ease Of Use</h2>
                         <p>
-                            MLSQL combines SQL and Python, make it more easy to use in BigData and AI.
+                            MLSQL combines SQL and Python which make it more easy to use in BigData and AI.
                             If you knows Command Line, you knows MLSQL.
                             If you knows SQL, you knows MLSQL.
                             If you knows Python, you knows MLSQL.
@@ -73,10 +74,13 @@ password: 123456`
 
 
                 <div className="p2-item">
-
+                    <div className="col-1">
+                        <h2>Code Example</h2>                        
+                        <img  height="400" src="http://docs.mlsql.tech/upload_images/WechatIMG67.png"></img>
+                    </div>
                     <div className="col-1">
                         <h2>Installing</h2>
-                        <p>The install script will install docker containers on your machine.</p>
+                        <p>One line to install with docker support</p>
                         <div className="pre-container">
                             <h3>Shell</h3>
                             <div className="pre-container-code">
@@ -86,22 +90,10 @@ password: 123456`
                             </div>
                         </div>
                     </div>
+                   
 
                     <div className="col-1">
-                        <h2>Try online</h2>
-                        <p>Visit <a href={"http://try.mlsql.tech"}>http://try.mlsql.tech</a></p>
-                        <div className="pre-container">
-                            <h3>Login info</h3>
-                            <div className="pre-container-code">
-                                <SyntaxHighlighter language='sql' style={dark}>
-                                    {logInfo}
-                                </SyntaxHighlighter>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-1">
-                        <h2>Code Example</h2>
+                        <h2>Pure SQL for AI</h2>
                         <p>MLSQL is realy easy to use, four lines to train a model and predict. </p>
                         <div className="pre-container">
                             <h3>MLSQL code</h3>
@@ -115,6 +107,8 @@ password: 123456`
                             </div>
                         </div>
                     </div>
+
+                    
 
 
                     <div className="hr"></div>
