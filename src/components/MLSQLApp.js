@@ -108,8 +108,6 @@ password: 123456`
                         </div>
                     </div>
 
-                    
-
 
                     <div className="hr"></div>
                 </div>
@@ -134,15 +132,13 @@ password: 123456`
                     </div>
 
                     <div className="col-3">
-                        <h2>Getting Started</h2>
+                        <h2>Join Wechat Group</h2>
+                        <p>Scan this image to add this robot and send keyword <b>mlsql</b> to join wechat group. </p>
                         <p>
-                            Learning MLSQL is easy if you are familiar with SQL. Please check <a
-                            href="http://docs.mlsql.tech/zh/grammar/">MLSQL
-                            Grammar</a> or find more examples on <a
-                            href="http://docs.mlsql.tech/zh/">our
-                            user guide</a>.
+                        <img  height="200" src="http://docs.mlsql.tech/upload_images/WechatIMG63.jpeg"></img>
                         </p>
                     </div>
+                    
                     <div className="clearfix"></div>
                 </div>
 
