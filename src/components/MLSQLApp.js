@@ -135,7 +135,7 @@ password: 123456`
                         <h2>Join Wechat Group</h2>
                         <p>Scan this image to add this robot and send keyword <b>mlsql</b> to join wechat group. </p>
                         <p>
-                        <img  height="200" src="http://docs.mlsql.tech/upload_images/WechatIMG63.jpeg"></img>
+                        <img  height="200" src="http://docs.mlsql.tech/upload_images/WechatIMG80.png"></img>
                         </p>
                     </div>
                     
