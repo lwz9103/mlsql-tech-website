@@ -10,11 +10,6 @@ export default class MLSQLApp extends Component {
 
     render() {
 
-        const logInfo = `account:  demo@gmail.com
-password: 123456`
-
-        const quickInstall = "bash <(curl http://download.mlsql.tech/scripts/run-all.sh)"
-
         return (<div className="MLSQLApp">
                 <div className="body">
                     <div className="p1">
@@ -104,7 +99,7 @@ password: 123456`
                             <div className="pre-container-code">
 
                                 <SyntaxHighlighter language='sql' style={dark}>
-                                    {<FormattedMessage id={"raw_code_example"}/>}
+                                    {<FormattedMessage id={"load_save_4_code"}/>}
                                 </SyntaxHighlighter>
 
 
@@ -119,7 +114,7 @@ password: 123456`
                             <div className="pre-container-code">
 
                                 <SyntaxHighlighter language='sql' style={dark}>
-                                   <FormattedMessage id={"load_save_4_code"}/>
+                                   <FormattedMessage id={"raw_code_example"}/>
                                 </SyntaxHighlighter>
 
 
