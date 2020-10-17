@@ -57,23 +57,6 @@ export default class MLSQLApp extends Component {
 
 
                 <div className="p2-item">
-                    <div className="col-1">
-                        <h2><FormattedMessage id={"code_example"}/></h2>
-                        <img  height="400" src="http://docs.mlsql.tech/upload_images/WechatIMG67.png"></img>
-                    </div>
-                    <div className="col-1">
-                        <h2><FormattedMessage id={"load_save_1"}/></h2>
-                        <p><FormattedMessage id={"load_save_1_desc"}/></p>
-                        <div className="pre-container">
-                            <h3>MLSQL</h3>
-                            <div className="pre-container-code">
-                                <SyntaxHighlighter language='shell' style={dark}>
-                                    <FormattedMessage id={"load_save_1_code"}/>
-                                </SyntaxHighlighter>
-                            </div>
-                        </div>
-                    </div>
-                   
 
                     <div className="col-1">
                         <h2><FormattedMessage id={"load_save_2"}/></h2>
@@ -81,12 +64,23 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
+                                <img width={"800px"}  src="http://docs.mlsql.tech/upload_images/WechatIMG67.png"></img>
+                                {/*<SyntaxHighlighter language='sql' style={dark}>*/}
+                                {/*    <FormattedMessage id={"load_save_2_code"}/>*/}
+                                {/*</SyntaxHighlighter>*/}
 
-                                <SyntaxHighlighter language='sql' style={dark}>
-                                    <FormattedMessage id={"load_save_2_code"}/>
-                                </SyntaxHighlighter>
 
+                            </div>
+                        </div>
+                    </div>
 
+                    <div className="col-1">
+                        <h2><FormattedMessage id={"load_save_1"}/></h2>
+                        <p><FormattedMessage id={"load_save_1_desc"}/></p>
+                        <div className="pre-container">
+                            <h3>MLSQL</h3>
+                            <div className="pre-container-code">
+                                <img width={"1000px"} src={"http://docs.mlsql.tech/upload_images/a08212c7-bb3a-4e64-b81e-d7c5e789a040.png"}></img>
                             </div>
                         </div>
                     </div>
@@ -97,32 +91,15 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-
-                                <SyntaxHighlighter language='sql' style={dark}>
-                                    {<FormattedMessage id={"load_save_4_code"}/>}
-                                </SyntaxHighlighter>
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-1">
-                        <h2><FormattedMessage id={"load_save_4"}/></h2>
-                        <p><FormattedMessage id={"load_save_4_desc"}/> </p>
-                        <div className="pre-container">
-                            <h3>MLSQL code</h3>
-                            <div className="pre-container-code">
-
-                                <SyntaxHighlighter language='sql' style={dark}>
-                                   <FormattedMessage id={"raw_code_example"}/>
-                                </SyntaxHighlighter>
+                                <img width={"1000px"} src={"http://docs.mlsql.tech/upload_images/d5dd05ae-62ed-403d-9500-42a38bdbcc26.png"}></img>
+                                {/*<SyntaxHighlighter language='sql' style={dark}>*/}
+                                {/*    {<FormattedMessage id={"load_save_4_code"}/>}*/}
+                                {/*</SyntaxHighlighter>*/}
 
 
                             </div>
                         </div>
                     </div>
-
-
                     <div className="hr"></div>
                 </div>
 

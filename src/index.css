@@ -260,7 +260,7 @@ a:hover {
 }
 
 .pre-container {
-  background-color: #B73F68;
+  /*background-color: #B73F68;*/
   border-radius: 8px;
   max-width: 80%;
   overflow: hidden;

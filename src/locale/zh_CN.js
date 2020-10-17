@@ -30,22 +30,22 @@ select rf_predict(features) from data as result;`,
     aliyun_support: "云原生支持",
     aliyun_support_desc: "通过http://analysis.mlsql.tech/,你可以轻松使用MLSQL以及分析工坊分析您在阿里云上的数据。",
     aliyun_support_desc2: "用户可以轻易的将MLSQL引擎部署于支持K8s的各种云以及私有部署上。我们同时也支持Yarn等部署模式。",
-    load_save_1: "加载,保存各类数据源",
-    load_save_1_desc:"使用Load/Save语法可以加载市面上大部分数据源和数据格式",
+    load_save_1: "易用而完善的Web IDE",
+    load_save_1_desc:"你可以在Web IDE中编辑管理你的脚本。",
     load_save_1_code: `load excel.\`/tmp/data.excel\` as table1;
 load hive.\`db.table\` as table1;
 ...
 load es.\`db.table\` as table1;
 save overwrite table1 as hive.\`db.table2\`;
 `,
-    load_save_2: "海量数据处理",
-    load_save_2_desc:"用户可以Select语句对load的数据进行分布式处理",
+    load_save_2: "语法简明高效",
+    load_save_2_desc:"你可以使用MLSQL做大数据处理以及算法模型训练，预测。MLSQL完美融合了大数据和AI。",
     load_save_2_code: `select * from table1 as newtable;
 
 select split(col1) as col1 as newtable as output; 
 `,
-    load_save_3: "AI Python支持",
-    load_save_3_desc:"可以使用Python完成对SQL处理的数据",
+    load_save_3: "无SQL高阶分析工坊",
+    load_save_3_desc:"基于MLSQL强大的表达能力，我们很容易基于他开发出高效的无SQL分析工具",
     load_save_4: "AI高阶支持",
     load_save_4_desc:"可以使用高阶模块快速完成算法训练,预测",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
