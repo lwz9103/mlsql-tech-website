@@ -7,6 +7,7 @@ const zh_CN = {
     downdloads: "下载",
     video: "视频",
     desc: "一门面向大数据和AI的语言",
+    desc2: "一个真正整合数据管理，商业分析，机器学习的统一平台",
     ease_of_use: "易于使用",
     ease_of_use_desc: `MLSQL非常易于使用，以SQL为基本语法单元，支持命令行形态，内嵌Python，可以直接分布式操作海量数据，玩转数据于弹指之间。`,
     data_security: "数据安全",

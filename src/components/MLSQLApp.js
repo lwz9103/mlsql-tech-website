@@ -19,6 +19,7 @@ export default class MLSQLApp extends Component {
                                 <img src={"http://docs.mlsql.tech/upload_images/461b619e-ad60-41c4-bdca-b226f6ccb6a2.png"}/>
                             </div>
                             <p className="p1-text"><FormattedMessage id="desc"/></p>
+                            <p className="p1-text"><FormattedMessage id="desc2"/></p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
                                    href="http://download.mlsql.tech"><FormattedMessage id="download"/></a>
