@@ -170,7 +170,7 @@ a:hover {
 .p1-logo img {
   /*position: relative;*/
   /*clip: rect(100px,0px,0px,100px);*/
-  width: 600px;
+  width: 100%;
   object-fit:contain;
 }
 
@@ -278,6 +278,13 @@ a:hover {
 .pre-container-code {
   overflow: auto;
   max-height: 400px;
+}
+
+.pre-container-code img {
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pre-container pre {
