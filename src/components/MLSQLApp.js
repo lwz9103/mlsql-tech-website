@@ -108,14 +108,14 @@ export default class MLSQLApp extends Component {
                     <div className="col-3" style={{marginLeft: 0}}>
                         <h2><a href={"http://blog.mlsql.tech/blog/demo.html"}><FormattedMessage id={"try_online_guide"}/></a></h2>
                         <p>
-                           <FormattedMessage id={"try_online_guide_desc"}/>
+                           <FormattedMessage id={"try_online_guide_desc"}/>。<a href={"http://blog.mlsql.tech/blog/demo.html"}>Go</a>
                         </p>
                     </div>
 
                     <div className="col-3">
                         <h2><a href={"http://blog.mlsql.tech/blog/cloud_oss_analysis.html"}><FormattedMessage id={"aliyun_support"}/></a></h2>
                         <p>
-                            <FormattedMessage id={"aliyun_support_desc"}/>
+                            <FormattedMessage id={"aliyun_support_desc"}/> <a href={"http://blog.mlsql.tech/blog/cloud_oss_analysis.html"}>Go</a>
                         </p>
                     </div>
 
