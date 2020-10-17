@@ -146,9 +146,9 @@ a:hover {
 }
 
 .p1 {
-  background: #B73F68;
+  /*background: #B73F68;*/
   padding: 60px 0 70px;
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .p1-wrap {
@@ -158,11 +158,20 @@ a:hover {
 }
 
 .p1-logo {
+  /*background: url("./image/mlsql-logo.png") center;*/
+  /*background-size: contain;*/
   text-align: center;
   margin: 0;
   font-size: 45px;
   letter-spacing: 0.01em;
   font-weight: bolder;
+}
+
+.p1-logo img {
+  /*position: relative;*/
+  /*clip: rect(100px,0px,0px,100px);*/
+  width: 600px;
+  object-fit:contain;
 }
 
 .p1-text {

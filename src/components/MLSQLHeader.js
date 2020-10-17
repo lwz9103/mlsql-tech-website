@@ -3,6 +3,7 @@ import pineTree from '../image/pine-tree.png';
 import github from '../image/github.png';
 import search from '../image/search.png';
 import menu from '../image/menu.png';
+import {FormattedMessage} from "react-intl";
 
 export default class MLSQLHeader extends Component {
   constructor(props) {
@@ -10,11 +11,11 @@ export default class MLSQLHeader extends Component {
     this.state = {
       keyword: 'Search docs',
       navs: [
-        { text: 'Downloads', url: 'http://download.mlsql.tech' },
-        { text: 'Tutorial', url: 'http://docs.mlsql.tech/zh/' },
-        { text: 'Community', url: 'https://github.com/allwefantasy/mlsql' },
-        { text: 'Blog', url: 'https://zhuanlan.zhihu.com/c_205546986' },
-        { text: 'Video', url: 'https://space.bilibili.com/22610047/video' }
+        { text: <FormattedMessage id={"downdloads"}/>, url: 'http://download.mlsql.tech' },
+        { text: <FormattedMessage id={"tutorial"}/>, url: 'http://docs.mlsql.tech/mlsql-console/' },
+        { text: <FormattedMessage id={"community"}/>, url: 'https://github.com/allwefantasy/mlsql' },
+        { text: <FormattedMessage id={"blog"}/>, url: 'http://blog.mlsql.tech/' },
+        { text: <FormattedMessage id={"video"}/>, url: 'https://space.bilibili.com/22610047/video' }
       ],
       isDropMenuOpen: false,
     };
@@ -35,10 +36,7 @@ export default class MLSQLHeader extends Component {
         <div className="header-wrap">
           <div className="header-nav-left">
             <div className="nav-item logo logo-color" style={{ paddingLeft: 0 }}>
-              <a href="/">
-                <img alt='' src={pineTree} width="22"/>
-                MLSQL
-              </a>
+                <img alt='' src={pineTree} width="22"/>MLSQL
             </div>
             {
               this.state.navs.map((nav, index) => {

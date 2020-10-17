@@ -1,19 +1,14 @@
 import React, {Component} from 'react';
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
 import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism';
+import mlsqlLogo from "../image/mlsql-logo.png";
+import {FormattedMessage} from "react-intl";
 
 
 export default class MLSQLApp extends Component {
 
 
     render() {
-        const codeExample = `load libsvm.\`sample_libsvm_data.txt\` as data;
-
-train data as RandomForest.\`/tmp/model\`;
-
-register RandomForest.\`/tmp/model\` as rf_predict;
-
-select rf_predict(features) from data as result;`
 
         const logInfo = `account:  demo@gmail.com
 password: 123456`
@@ -25,15 +20,14 @@ password: 123456`
                     <div className="p1">
                         <div className="p1-wrap">
                             <div className="p1-logo logo-color">
-                                MLSQL
+                                <img alt='' src={mlsqlLogo}/>
                             </div>
-                            <p className="p1-text">The Programming Language Designed For Big Data and AI</p>
+                            <p className="p1-text"><FormattedMessage id="desc"/></p>
                             <div className="p1-bar">
                                 <a className="p1-bar-item"
-                                   href="http://download.mlsql.tech">Download</a>
+                                   href="http://download.mlsql.tech"><FormattedMessage id="download"/></a>
                                 <a className="p1-bar-item"
-                                   href="http://docs.mlsql.tech/zh/">Get
-                                    Started</a>
+                                   href="http://docs.mlsql.tech/mlsql-console/"><FormattedMessage id="started"/></a>
                             </div>
                         </div>
                     </div>
@@ -42,30 +36,24 @@ password: 123456`
                 <div className="p2-item">
 
                     <div className="col-3" style={{marginLeft: 0}}>
-                        <h2>General</h2>
+                        <h2><FormattedMessage id={"ease_of_use"}/></h2>
                         <p>
-                            MLSQL is designed for Big Data and Machine Learning.
-                            It also includes a distributed runtime which can runs on EC2, on Hadoop YARN, on Mesos, or
-                            on
-                            Kubernetes and access data in HDFS, Alluxio, Cassandra, HBase, Hive, and
-                            hundreds of other data sources.
+                            <FormattedMessage id={"ease_of_use_desc"}/>
+                        </p>
+
+                    </div>
+
+                    <div className="col-3">
+                        <h2><FormattedMessage id={"data_security"}/></h2>
+                        <p>
+                            <FormattedMessage id={"data_security_desc"}/>
                         </p>
                     </div>
 
                     <div className="col-3">
-                        <h2>Ease Of Use</h2>
+                        <h2><FormattedMessage id={"aliyun_support"}/></h2>
                         <p>
-                            MLSQL combines SQL and Python which make it more easy to use in BigData and AI.
-                            If you knows Command Line, you knows MLSQL.
-                            If you knows SQL, you knows MLSQL.
-                            If you knows Python, you knows MLSQL.
-                        </p>
-                    </div>
-
-                    <div className="col-3">
-                        <h2>Open Source</h2>
-                        <p>
-                            MLSQL is free for everyone to use, and all source code is publicly viewable on GitHub.
+                            <FormattedMessage id={"aliyun_support_desc2"}/>
                         </p>
                     </div>
                     <div className="clearfix"></div>
@@ -75,17 +63,17 @@ password: 123456`
 
                 <div className="p2-item">
                     <div className="col-1">
-                        <h2>Code Example</h2>                        
+                        <h2><FormattedMessage id={"code_example"}/></h2>
                         <img  height="400" src="http://docs.mlsql.tech/upload_images/WechatIMG67.png"></img>
                     </div>
                     <div className="col-1">
-                        <h2>Installing</h2>
-                        <p>One line to install with docker support</p>
+                        <h2><FormattedMessage id={"load_save_1"}/></h2>
+                        <p><FormattedMessage id={"load_save_1_desc"}/></p>
                         <div className="pre-container">
-                            <h3>Shell</h3>
+                            <h3>MLSQL</h3>
                             <div className="pre-container-code">
                                 <SyntaxHighlighter language='shell' style={dark}>
-                                    {quickInstall}
+                                    <FormattedMessage id={"load_save_1_code"}/>
                                 </SyntaxHighlighter>
                             </div>
                         </div>
@@ -93,14 +81,45 @@ password: 123456`
                    
 
                     <div className="col-1">
-                        <h2>Pure SQL for AI</h2>
-                        <p>MLSQL is realy easy to use, four lines to train a model and predict. </p>
+                        <h2><FormattedMessage id={"load_save_2"}/></h2>
+                        <p><FormattedMessage id={"load_save_2_desc"}/></p>
+                        <div className="pre-container">
+                            <h3>MLSQL</h3>
+                            <div className="pre-container-code">
+
+                                <SyntaxHighlighter language='sql' style={dark}>
+                                    <FormattedMessage id={"load_save_2_code"}/>
+                                </SyntaxHighlighter>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-1">
+                        <h2><FormattedMessage id={"load_save_3"}/></h2>
+                        <p><FormattedMessage id={"load_save_3_desc"}/></p>
+                        <div className="pre-container">
+                            <h3>MLSQL</h3>
+                            <div className="pre-container-code">
+
+                                <SyntaxHighlighter language='sql' style={dark}>
+                                    {<FormattedMessage id={"raw_code_example"}/>}
+                                </SyntaxHighlighter>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-1">
+                        <h2><FormattedMessage id={"load_save_4"}/></h2>
+                        <p><FormattedMessage id={"load_save_4_desc"}/> </p>
                         <div className="pre-container">
                             <h3>MLSQL code</h3>
                             <div className="pre-container-code">
 
                                 <SyntaxHighlighter language='sql' style={dark}>
-                                    {codeExample}
+                                   <FormattedMessage id={"load_save_4_code"}/>
                                 </SyntaxHighlighter>
 
 
@@ -114,26 +133,22 @@ password: 123456`
 
                 <div className="p2-item">
                     <div className="col-3" style={{marginLeft: 0}}>
-                        <h2>Community</h2>
+                        <h2><a href={"http://blog.mlsql.tech/blog/demo.html"}><FormattedMessage id={"try_online_guide"}/></a></h2>
                         <p>
-                            MLSQL is now developing actively, more and more developers are joining our community.
+                           <FormattedMessage id={"try_online_guide_desc"}/>
                         </p>
                     </div>
 
                     <div className="col-3">
-                        <h2>Contributors</h2>
+                        <h2><a href={"http://blog.mlsql.tech/blog/cloud_oss_analysis.html"}><FormattedMessage id={"aliyun_support"}/></a></h2>
                         <p>
-                            This is an active open source project for everyone, and we are always open to people who
-                            want to use this system or contribute to it.
-                            This guide document introduce <a
-                            href="https://github.com/allwefantasy/streamingpro/blob/master/docs/docv2/contribute/contribute.md">how
-                            to contribute to MLSQL</a>.
+                            <FormattedMessage id={"aliyun_support_desc"}/>
                         </p>
                     </div>
 
                     <div className="col-3">
-                        <h2>Join Wechat Group</h2>
-                        <p>Scan this image to add this robot and send keyword <b>mlsql</b> to join wechat group. </p>
+                        <h2><FormattedMessage id={"join_wechat_group"}/></h2>
+                        <p><FormattedMessage id={"join_wechat_group_desc"}/> </p>
                         <p>
                         <img  height="200" src="http://docs.mlsql.tech/upload_images/WechatIMG80.png"></img>
                         </p>
