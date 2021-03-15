@@ -30,24 +30,24 @@ select rf_predict(features) from data as result;`,
     join_wechat_group_desc: "Scan this image to add this robot and send keyword mlsql to join wechat group.",
     aliyun_support: "",
     aliyun_support_desc: "",
-    load_save_1: "加载,保存各类数据源",
-    load_save_1_desc: "使用Load/Save语法可以加载市面上大部分数据源和数据格式",
+    load_save_1: "Load and save various data sources",
+    load_save_1_desc: "Load most data sources and data formats in Load/Save syntax",
     load_save_1_code: `load excel.\`/tmp/data.excel\` as table1;
 load hive.\`db.table\` as table1;
 ...
 load es.\`db.table\` as table1;
 save overwrite table1 as hive.\`db.table2\`;
 `,
-    load_save_2: "海量数据处理",
-    load_save_2_desc: "用户可以Select语句对load的数据进行分布式处理",
+    load_save_2: "Processing of Gigantic Amount Data",
+    load_save_2_desc: "Perform distributed processing on loaded data with SELECT statement",
     load_save_2_code: `select * from table1 as newtable;
 
 select split(col1) as col1 as newtable as output; 
 `,
-    load_save_3: "AI Python支持",
-    load_save_3_desc: "可以使用Python完成对SQL处理的数据",
-    load_save_4: "AI高阶支持",
-    load_save_4_desc: "可以使用高阶模块快速完成算法训练,预测",
+    load_save_3: "AI Python support",
+    load_save_3_desc: "Use Python to process data which is already processed by SQL",
+    load_save_4: "Advanced AI support",
+    load_save_4_desc: "Use advanced modules for algorithm training and prediction",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
 
 load delta.\`public.consumer_complains\` as cc;
