@@ -31,21 +31,21 @@ select rf_predict(features) from data as result;`,
     aliyun_support: "",
     aliyun_support_desc: "",
     load_save_1: "Load and save various data sources",
-    load_save_1_desc: "Load most data sources and data formats in Load/Save syntax",
+    load_save_1_desc: "Load most data sources and data formats in 'LOAD/SAVE' syntax",
     load_save_1_code: `load excel.\`/tmp/data.excel\` as table1;
 load hive.\`db.table\` as table1;
 ...
 load es.\`db.table\` as table1;
 save overwrite table1 as hive.\`db.table2\`;
 `,
-    load_save_2: "Processing of Gigantic Amount Data",
-    load_save_2_desc: "Perform distributed processing on loaded data with SELECT statement",
+    load_save_2: "Processing large volumes of data",
+    load_save_2_desc: "Perform distributed processing on loaded data with 'SELECT' statement",
     load_save_2_code: `select * from table1 as newtable;
 
 select split(col1) as col1 as newtable as output; 
 `,
     load_save_3: "AI Python support",
-    load_save_3_desc: "Use Python to process data which is already processed by SQL",
+    load_save_3_desc: "Use python to process data which is already processed by sql",
     load_save_4: "Advanced AI support",
     load_save_4_desc: "Use advanced modules for algorithm training and prediction",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
