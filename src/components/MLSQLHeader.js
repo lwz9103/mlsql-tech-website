@@ -31,6 +31,8 @@ export default class MLSQLHeader extends Component {
   }
 
   render() {
+    const { onLocaleChange } = this.props;
+
     return (
       <div className="header">
         <div className="header-wrap">
@@ -71,6 +73,11 @@ export default class MLSQLHeader extends Component {
               <a rel="noopener noreferrer" href="https://github.com/allwefantasy/mlsql" target="_blank">GitHub</a>
               <img alt='' src={github} width="16" style={{ float: 'right' }}/>
             </div>
+          </div>
+          <div className="nav-item nav-small header-nav-right">
+            <a href="#" className="nav-link" onClick={() => { onLocaleChange('zh'); }}>中</a>
+            <span className="nav-link-split" />
+            <a href="#" className="nav-link" onClick={() => { onLocaleChange('en'); }}>En</a>
           </div>
           <div className="nav-item header-nav-right">
             <div className="nav-search">

@@ -134,6 +134,22 @@ a:hover {
   color: #A82255;
 }
 
+.nav-link {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 14px;
+  padding: 0 10px;
+}
+
+.nav-link-split {
+  display: inline-block;
+  vertical-align: sub;
+  height: 20px;
+  margin-top: 14px;
+  border-left: 1px solid currentColor;
+}
+
 .nav-gitlab img {
   position: absolute;
   right: 0;

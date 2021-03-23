@@ -6,12 +6,20 @@ import MLSQLHeader from './components/MLSQLHeader'
 import MLSQLApp from './components/MLSQLApp'
 
 class App extends Component {
+    state = {
+        lang: "zh",
+        messages: zh_CN
+    }
+
+    handleLocaleChange = (lang) => {
+        this.setState({ lang, messages: lang === "zh" ? zh_CN : en_US });
+    }
+
     render() {
-        const lang = "zh"
         return (
-            <IntlProvider locale={lang} messages={zh_CN}>
+            <IntlProvider locale={this.state.lang} messages={this.state.messages}>
             <div className="App">
-                <MLSQLHeader/>
+                <MLSQLHeader onLocaleChange={this.handleLocaleChange} />
                 <MLSQLApp/>
             </div>
             </IntlProvider>
