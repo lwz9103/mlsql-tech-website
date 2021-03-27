@@ -2,21 +2,21 @@ import React from "react";
 
 const en_US = {
     blog: "Blog",
-    tutorial: "Tutorial",
+    tutorial: "Documentation",
     community: "Community",
     downdloads: "Downdloads",
     video: "Video",
     desc: "The Programming Language Designed For Big Data and AI",
-    ease_of_use: "Ease Of Use",
-    ease_of_use_desc: ` MLSQL combines SQL and Python which make it more easy to use in BigData and AI.
-                            If you knows Command Line, you knows MLSQL.
-                            If you knows SQL, you knows MLSQL.
-                            If you knows Python, you knows MLSQL.`,
+    desc2: "The Unified Platform for Data Management, Business Analysis and Machine Learning",
+    ease_of_use: "Easy-to-use",
+    ease_of_use_desc: ` With SQL as the basic syntax, build-in support for command line and embeded Python, MLSQL enables distributed big data processing in a fast and flexible manner.`,
+    data_security: "Data Security",
+    data_security_desc: `MLSQL ensures end-to-end data security by enabling up to column granularity access control and syntax constrains`,
     open_source: "Open Source",
-    open_source_desc: `MLSQL is free for everyone to use, and all source code is publicly viewable on GitHub.`,
-    download: "Download",
+    open_source_desc: `MLSQL core engine is under Apache V2 license and source code is publicly accessable on GitHub/Gitee`,
+    download: "Downloads",
     started: "Get Started",
-    code_example: "Code Examples",
+    code_example: "Examples",
     raw_code_example: `load libsvm.\`sample_libsvm_data.txt\` as data;
 
 train data as RandomForest.\`/tmp/model\`;
@@ -25,29 +25,29 @@ register RandomForest.\`/tmp/model\` as rf_predict;
 
 select rf_predict(features) from data as result;`,
     try_online_guide: "Try Online",
-    try_online_guide_desc: "",
+    try_online_guide_desc: "Get yourself familiar with MLSQL syntax and Analytic Workspace",
     join_wechat_group: "Join Wechat Group",
-    join_wechat_group_desc: "Scan this image to add this robot and send keyword mlsql to join wechat group.",
-    aliyun_support: "",
-    aliyun_support_desc: "",
-    load_save_1: "Load and save various data sources",
-    load_save_1_desc: "Load most data sources and data formats in 'LOAD/SAVE' syntax",
+    join_wechat_group_desc: "Scan the QR code and send the keyword mlsql to join the wechat group.",
+    aliyun_support: "Cloud Native",
+    aliyun_support_desc: "Use MLSQL and analytics workspace to process your own data stored on Ali Cloud via http://analysis.mlsql.tech/",
+    load_save_1: "Easy to Use Web IDE",
+    load_save_1_desc: "Manage your MLSQL scripts in Web IDE",
     load_save_1_code: `load excel.\`/tmp/data.excel\` as table1;
 load hive.\`db.table\` as table1;
 ...
 load es.\`db.table\` as table1;
 save overwrite table1 as hive.\`db.table2\`;
 `,
-    load_save_2: "Processing large volumes of data",
-    load_save_2_desc: "Perform distributed processing on loaded data with 'SELECT' statement",
+    load_save_2: "Clear and efficient syntax",
+    load_save_2_desc: "MLSQL provides an unified language for big data ETL and machine learning",
     load_save_2_code: `select * from table1 as newtable;
 
 select split(col1) as col1 as newtable as output; 
 `,
-    load_save_3: "AI Python support",
-    load_save_3_desc: "Use python to process data which is already processed by sql",
+    load_save_3: "The analytics workspace with no more SQL codes",
+    load_save_3_desc: "no-code plug-ins and tools can easily be developed thanks to excellent expresssion ability of MLSQL",
     load_save_4: "Advanced AI support",
-    load_save_4_desc: "Use advanced modules for algorithm training and prediction",
+    load_save_4_desc: "Use advanced modules to train predict machine learning models and make predictions",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
 
 load delta.\`public.consumer_complains\` as cc;
