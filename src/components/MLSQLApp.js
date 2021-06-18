@@ -66,7 +66,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"800px"}  src="http://docs.mlsql.tech/upload_images/WechatIMG67.png"></img>
+                                <img width={"800px"}  src="http://store.mlsql.tech/upload_images/WechatIMG67.png"></img>
                                 {/*<SyntaxHighlighter language='sql' style={dark}>*/}
                                 {/*    <FormattedMessage id={"load_save_2_code"}/>*/}
                                 {/*</SyntaxHighlighter>*/}
@@ -82,7 +82,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"1000px"} src={"http://docs.mlsql.tech/upload_images/a08212c7-bb3a-4e64-b81e-d7c5e789a040.png"}></img>
+                                <img width={"1000px"} src={"http://store.mlsql.tech/upload_images/19cdeddf-037e-402c-b113-5f9956143934.png"}></img>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"1000px"} src={"http://docs.mlsql.tech/upload_images/d5dd05ae-62ed-403d-9500-42a38bdbcc26.png"}></img>
+                                <img width={"1000px"} src={"http://store.mlsql.tech/upload_images/25121b80-dcd0-4ca9-9581-87c15a9016af.png"}></img>
                                 {/*<SyntaxHighlighter language='sql' style={dark}>*/}
                                 {/*    {<FormattedMessage id={"load_save_4_code"}/>}*/}
                                 {/*</SyntaxHighlighter>*/}
