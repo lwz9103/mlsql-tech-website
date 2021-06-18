@@ -32,7 +32,7 @@ select rf_predict(features) from data as result;`,
     aliyun_support_desc: "Use MLSQL and analytics workspace to process your own data stored on Ali Cloud via http://analysis.mlsql.tech/",
     aliyun_support_desc2: "MLSQL engines can be easily deployed not only via Yarn, but also on clouds with K8S supports",
     load_save_1: "Easy to Use Web IDE",
-    load_save_1_desc: "Manage your MLSQL scripts in Web IDE",
+    load_save_1_desc: "Manage your MLSQL scripts/notebook in Web IDE",
     load_save_1_code: `load excel.\`/tmp/data.excel\` as table1;
 load hive.\`db.table\` as table1;
 ...
@@ -45,8 +45,8 @@ save overwrite table1 as hive.\`db.table2\`;
 
 select split(col1) as col1 as newtable as output; 
 `,
-    load_save_3: "The analytics workspace with no more SQL codes",
-    load_save_3_desc: "no-code plug-ins and tools can easily be developed thanks to excellent expresssion ability of MLSQL",
+    load_save_3: "No code analytics workshop",
+    load_save_3_desc: "no-code plugins and tools can easily be developed thanks to excellent expresssion ability of MLSQL",
     load_save_4: "Advanced AI support",
     load_save_4_desc: "Use advanced modules to train predict machine learning models and make predictions",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
