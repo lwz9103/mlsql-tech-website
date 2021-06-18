@@ -16,7 +16,7 @@ export default class MLSQLApp extends Component {
                         <div className="p1-wrap">
                             <div className="p1-logo logo-color">
                                 {/*<img alt='' src={mlsqlLogo}/>*/}
-                                <img src={"http://docs.mlsql.tech/upload_images/461b619e-ad60-41c4-bdca-b226f6ccb6a2.png"}/>
+                                <img src={"http://store.mlsql.tech/upload_images/10123ad2-5314-475d-9a2d-8ca915b1fc85.png"}/>
                             </div>
                             <p className="p1-text"><FormattedMessage id="desc"/></p>
                             <p className="p1-text"><FormattedMessage id="desc2"/></p>
