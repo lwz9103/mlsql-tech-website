@@ -46,7 +46,7 @@ save overwrite table1 as hive.\`db.table2\`;
 select split(col1) as col1 as newtable as output; 
 `,
     load_save_3: "No code analytics workshop",
-    load_save_3_desc: "no-code plugins and tools can easily be developed thanks to excellent expresssion ability of MLSQL",
+    load_save_3_desc: "No code plugins and tools can be easily developed thanks to excellent expresssion ability of MLSQL",
     load_save_4: "Advanced AI support",
     load_save_4_desc: "Use advanced modules to train predict machine learning models and make predictions",
     load_save_4_code: `!pyInclude python_example.foreach.py named wow1;
