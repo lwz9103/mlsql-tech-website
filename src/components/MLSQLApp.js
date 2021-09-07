@@ -16,7 +16,7 @@ export default class MLSQLApp extends Component {
                         <div className="p1-wrap">
                             <div className="p1-logo logo-color">
                                 {/*<img alt='' src={mlsqlLogo}/>*/}
-                                <img src={"http://store.mlsql.tech/upload_images/10123ad2-5314-475d-9a2d-8ca915b1fc85.png"}/>
+                                <img src={"../upload_images/10123ad2-5314-475d-9a2d-8ca915b1fc85.png"}/>
                             </div>
                             <p className="p1-text"><FormattedMessage id="desc"/></p>
                             <p className="p1-text"><FormattedMessage id="desc2"/></p>
@@ -66,7 +66,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"800px"}  src="http://store.mlsql.tech/upload_images/19cdeddf-037e-402c-b113-5f9956143934.png"></img>
+                                <img width={"800px"}  src="../upload_images/19cdeddf-037e-402c-b113-5f9956143934.png"></img>
                                 {/*<SyntaxHighlighter language='sql' style={dark}>*/}
                                 {/*    <FormattedMessage id={"load_save_2_code"}/>*/}
                                 {/*</SyntaxHighlighter>*/}
@@ -82,7 +82,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"1000px"} src={"http://store.mlsql.tech/upload_images/84b75606-f59d-43ab-b35f-6a27e3a47c2e.png"}></img>
+                                <img width={"1000px"} src={"../upload_images/84b75606-f59d-43ab-b35f-6a27e3a47c2e.png"}></img>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export default class MLSQLApp extends Component {
                         <div className="pre-container">
                             <h3>MLSQL</h3>
                             <div className="pre-container-code">
-                                <img width={"1000px"} src={"http://store.mlsql.tech/upload_images/25121b80-dcd0-4ca9-9581-87c15a9016af.png"}></img>
+                                <img width={"1000px"} src={"../upload_images/25121b80-dcd0-4ca9-9581-87c15a9016af.png"}></img>
                                 {/*<SyntaxHighlighter language='sql' style={dark}>*/}
                                 {/*    {<FormattedMessage id={"load_save_4_code"}/>}*/}
                                 {/*</SyntaxHighlighter>*/}
@@ -124,7 +124,7 @@ export default class MLSQLApp extends Component {
                         <h2><FormattedMessage id={"join_wechat_group"}/></h2>
                         <p><FormattedMessage id={"join_wechat_group_desc"}/> </p>
                         <p>
-                        <img  height="200" src="http://docs.mlsql.tech/upload_images/WechatIMG80.png"></img>
+                        <img  height="200" src="../upload_images/WechatIMG80.png"></img>
                         </p>
                     </div>
                     
